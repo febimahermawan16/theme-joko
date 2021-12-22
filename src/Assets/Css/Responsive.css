@@ -1,0 +1,326 @@
+/*
+* ------------------------------------------------------------
+* Override Theme Stylesheet, Styling component by media width
+* Happy Hack :)
+* ------------------------------------------------------------
+*/
+
+@media screen and (min-width : 200px) {
+/* ----------------------
+*        Global 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*       Bootstrap 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*       Animation 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*         Scroll 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*     Authentication 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Header 
+*  ----------------------
+*/
+header{
+    width: 100%;
+    padding: 0;
+}
+.main-header{
+    margin-top: 0;
+    padding: 5px;
+    height: 65px;
+}
+header.scrolled >.main-header{
+    border-radius: 0;
+}
+.toggle-sidebar{
+    display: flex;
+}
+
+.navigation-bar{
+    width: 100%;
+}
+
+.header-profile{
+    margin-left: 0;
+}
+.header-profile .avatar{
+    width: 30px;
+    height: 30px;
+}
+.header-profile .nickname{
+    display: none;
+}
+
+.navigation-bar{
+    width: 100%;
+}
+
+.navs-dropdown.show{
+    top: calc(100% + 12px);
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Sidebar 
+*  ----------------------
+*/
+
+aside.sidebar{
+    left: -100%;
+    background: #fff;
+    box-shadow: 0 0.4rem 1rem rgb(0 0 0 / 10%);
+}
+aside.sidebar.show{
+    left: 0;
+}
+aside.sidebar .sidebar-top .sidebar-close{
+    display: flex;
+}
+aside.sidebar .line-aside{
+    display: none;
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Content 
+*  ----------------------
+*/
+
+.content{
+    width: 100%;
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Footer 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+}
+
+@media screen and (min-width : 992px) {
+/* ----------------------
+*        Global 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*       Bootstrap 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*       Animation 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*         Scroll 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*     Authentication 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Header 
+*  ----------------------
+*/
+
+header{
+    width: calc(100% - 250px);
+    padding: 0 15px;
+}
+.main-header{
+    margin-top: 10px;
+    padding: 5px 15px;
+    height: 55px;
+}
+header.scrolled >.main-header{
+    border-radius: 10px;
+}
+.toggle-sidebar{
+    display: none;
+}
+
+.navigation-bar{
+    width: 100%;
+}
+
+.header-profile .avatar{
+    width: 35px;
+    height: 35px;
+}
+.header-profile .nickname{
+    display: flex;
+}
+
+.navs-dropdown.show{
+    top: calc(100% + 5px);
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Sidebar 
+*  ----------------------
+*/
+
+aside.sidebar{
+    left: 0;
+    background: transparent;
+    box-shadow: none;
+}
+aside.sidebar.show{
+    left: 0;
+}
+aside.sidebar .sidebar-top .sidebar-close{
+    display: none;
+}
+aside.sidebar .line-aside{
+    display: block;
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Content 
+*  ----------------------
+*/
+
+.content{
+    width: calc(100% - 250px);
+}
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*        Footer 
+*  ----------------------
+*/
+
+
+/* ----------------------
+*          End 
+*  ----------------------
+*/
+}
