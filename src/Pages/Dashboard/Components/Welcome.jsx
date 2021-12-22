@@ -21,7 +21,7 @@ export class Welcome extends Component {
                         </h5>
                         <span className="df-fdr df-algn-jtfct-ct mgt-60">
                             <Link to="/typography" className="btn btn-lg btn-primary">Explore</Link>
-                            <Link to={{pathname: '/typography'}} className="btn btn-lg mgl-10">
+                            <Link to={{pathname: 'https://github.com/febimahermawan16/theme-joko'}} className="btn btn-lg mgl-10">
                                 <GitHub size={20} /> <span className="mgl-5">Open Github</span>
                             </Link>
                         </span>
